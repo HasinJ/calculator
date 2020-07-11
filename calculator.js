@@ -6,9 +6,11 @@ function subtract (first,second) {
 	return first-second;
 }
 
-
-function sum () {
-
+function sum(array){
+    let sum = array.reduce((total,number) => {
+        return total+=number;
+    },0);
+    return sum;
 }
 
 function multiply () {
