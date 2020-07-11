@@ -28,8 +28,13 @@ function power(first,second){
     return sum;
 }
 
-function factorial() {
-
+function factorial(number){
+    if(number==0 || number==1) return 1;
+    let sum=number*(number-1);
+    for(i=number-2;i>1;i--){
+        sum=(sum)*(i);
+    }
+    return sum;
 }
 
 module.exports = {
