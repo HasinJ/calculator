@@ -20,8 +20,12 @@ function multiply(array){
     return sum;
 }
 
-function power() {
-
+function power(first,second){
+    let sum=1;
+    for(i=0;i<second;i++){
+        sum*=first;
+    }
+    return sum;
 }
 
 function factorial() {
