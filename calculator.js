@@ -2,9 +2,10 @@ function add (first,second) {
 	return first + second;
 }
 
-function subtract () {
-
+function subtract (first,second) {
+	return first-second;
 }
+
 
 function sum () {
 
